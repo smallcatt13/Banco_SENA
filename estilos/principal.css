@@ -1,0 +1,318 @@
+@font-face {
+  font-family: "GloriaHallelujah";
+  src: url(../fuentes/GloriaHallelujah.ttf);
+}
+
+@font-face {
+  font-family: "Latinia";
+  src: url(../fuentes/Latinia.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fuentes/OpenSans.ttf);
+}
+
+article, body, html, ul, nav, h2, section, p {
+  font-family: "OpenSans";
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  text-align: center;
+  margin: 3em 0 1em 0;
+  box-shadow: 5px -6px 5px rgba(95,141,211,0.6);
+
+}
+
+label{
+  margin: 0;
+  display: inline-block;
+  padding: 0
+  widows: 25%;
+}
+
+.alinear-ceenter{
+  text-align: center;
+  }
+nav{
+  padding: 8px;
+}
+.alinear-centro{
+  text-align: center;
+  }
+nav{
+  padding: 8px;
+}
+
+nav a{
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em 3em;
+  box-shadow: 5px 2px 5px;
+  border-radius: 0 0.5em 1em 0;
+  margin: 6px;
+  color: black;
+  background-color: yellow;
+
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+nav ul li a:hover{
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em 3em;
+  margin: 0 5px 1px 0;
+  font-weight: 600;
+  color: rgb(178, 47, 211);
+  background-color: rgba(27, 33, 43, 0.7);
+  border-radius: 1em;
+
+}
+
+video{
+  padding: 10px; 
+  margin: 10px; 
+  border: 2px solid black; 
+  float:  right;
+  width: 250px;
+}
+
+#articulos{
+  display: flex;
+  /*height: 50%;*/
+  vertical-align: top;
+  justify-content: center;
+
+}
+
+
+#cabeceraPortada{
+  display: inline-flex;
+  /*height: 50%;*/
+  width: 100%;
+
+}
+
+#formulario{
+  margin: 0;
+  padding: 0;
+  background-image: url(../imagenes/fondoLogin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  box-shadow: 5px 6px 5px rgba(95,141,211,0.5);
+  vertical-align: top;
+  /*height: 400px;*/
+}
+
+#formulario h2{
+  text-align: center;
+  /*padding-bottom: 3em;*/
+}
+
+#formulario input {
+  display: block;
+  /*position: relative;*/
+  /*direction: ltr;*/
+  clear: both;
+  margin: 0;
+  height: 10px;
+  width: 15em;
+  padding: 5px 8px;
+  border-radius: 0.5em;
+}
+
+#formulario li{
+padding-bottom: 2em;
+}
+
+#formulario li label, #formulario li input{
+  margin: 0.5em;
+  display: inline-block;
+  width: auto;
+  /*vertical-align: top;*/
+}
+
+#formulario ul{
+  list-style: none;
+  /*display: inline-flex;*/
+}
+
+#ingreso{
+  margin: 1em;
+  padding: 0.5em 1em;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0.5em;
+ }
+
+ #login{
+   width: auto;
+ }
+
+#portada{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#servicios{
+  width: 30%;
+}
+
+#productos, #tarjetas{
+  box-shadow: 5px 6px 5px rgba(95,141,211,0.9);
+  border-radius: 0.5em;
+  margin-left: 3em;
+}
+
+#servicios li{
+  list-style: none;
+
+}
+
+/*#tarjetas{
+  box-shadow: 5px 6px 5px rgba(95,141,211,0.5);
+}*/
+
+#servicios, #noticias{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2px;
+}
+
+.art-noticia, .art-noticia2{
+  display: flex;
+  border-radius: 0.5em;
+  box-shadow: 5px 6px 5px rgba(95,141,211,0.9);
+  margin: 0 0 2em 0;
+}
+
+.art-noticia2{
+
+}
+
+.contenido p{
+  padding: 0.5em 1em ;
+}
+
+.contenedorPortada{
+  width: 65%;
+}
+
+.espacioSuperior{
+  height: 80%
+}
+
+
+
+.fondoPsecundaria{
+  margin: 1em 0;
+  padding: 0 0 0 35%;
+  border-radius: 1em;
+  height: 100%;
+  width: auto;
+}
+
+.formulario{
+  text-align: center;
+}
+
+.icono{
+  height: 1.4em;
+  margin: 0 4px 0 0;
+}
+
+.icono2{
+  height: 2.5em;
+  margin: 0 4px 0 0;
+}
+
+
+.imgNoticia{
+  border-radius: 1em;
+  margin: 0 1em;
+  padding: 0;
+  height: 8em;
+}
+
+.imgNoticia2{
+  border-radius: 1em;
+  margin: 0 1em;
+  padding: 0;
+  height: 8em;
+}
+
+ .itemSeccion{
+   font-weight: 600;
+ }
+
+.noticias-cnt {
+  margin: 0 0 0 1.5em;
+  padding: 1em 0;
+  width: auto;
+  display: inline-flex;
+
+}
+
+.noticias-cnt div{
+  width: 100%;
+  padding: 0.5em;
+}
+.TituloArticulo1{
+  color: rgb(178, 47, 211);
+  font-family: "Latinia";
+}
+.productos{
+  margin-bottom: 2em;
+  background-image: url(../imagenes/fondoTransacciones.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: bottom;
+  }
+
+.pSecundaria{
+  height: 300px;
+}
+
+.tarjetas{
+  background-position: bottom;
+  background-image: url(../imagenes/tarjetasCredito.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: bottom;
+}
+
+.tituloSeccion{
+  font-family: "Latinia";
+  color: rgb(178, 47, 211);
+  text-align: center;
+}
+
+.videoPortada{
+  position: relative;
+
+  /*margin-right: 1px;*/
+  width: 60%;
+}
+body{
+  background-color: #ebc242;
+
+}
